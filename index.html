@@ -1,68 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virly Apriliawati Personal Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="cv-dian.pdf">Download CV</a> |
-        <a href="contact.html">Contact</a> |
-        <a href="about.html">About me</a>
-    </nav>
-
-    <hr />
-
-    <header style="text-align: center;">
-        <img src="img/virly.jpg" width="200" height="200" style="border-radius: 50%;"/>
-        <h1>Virly Apriliawati</h1>
-        <p>(mahasiswa)</p>
+    <!--ini adalah header-->
+    <header>
+        <h1>Belajar membuat layout dengan HTML dan CSS</h1>
     </header>
 
-    <hr />
+    <!--ini adalah navigasi menu-->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-    <article style="text-align: centerc v;">
-        <h2>Overview</h2>
-        <p>
-            Hi, saya adalah Virly Apriliawati Jurusan Pendidikan Sitem dan Teknologi Informasi
-        </p>
-    </article>
+    <!-- ini adalah container -->
+    <div id="container">
+        <section class="kiri">
+            <div class="content">
+                <h3>quotes NaJaemin</h3>
+                <p>
+                    Give yourself a present even if it's not a thing it's good, have a good rest or what's best for yourself I hope, even for just a while, you can gift yourself a present.                </p>
+                <button>Read More...</button>
+            </div>
+            <div class="content">
+                <h3>Judul Berita</h3>
+                <p>
+                    aku adalah Suci Rizkiah Azahra, seorang mahasiswa Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat at minima quia dolore quisquam, vitae adipisci labore illum. Commodi, velit fugiat. Ducimus perspiciatis sed nesciunt repellat recusandae placeat similique rem.
+                </p>
+                <button>Read More...</button>
+            </div>
+        </section>
 
-    <div style="max-width: 600px; margin: 3em auto">
-        <table border="1" width="100%">
-            <thead>
-                <tr>
-                    <th>Makanan Kesukaan</th>
-                    <th>Minuman Kesukaan</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>kue</li>
-                            <li>mie</li>
-                            <li>ayam</li>
-</ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>air mineral</li>
-                            <li>teh</li>
-                            <li>jus jeruk</li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <section class="kanan">
+            <div class="content_dua">
+                <h3>CATEGORY</h3>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Javascript</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">MySQL</a></li>
+                    <li><a href="#">Laravel</a></li>
+            </div>
+        </section>
     </div>
-<hr>
-    <footer style="text-align: center;">
-        <p>Copyright &copy; 2022 Virly Apriliawati.</p>
+
+    <!-- ini adalah footer -->
+    <footer>
+        <h3>Copy Right 2022</h3>
     </footer>
-</body>
-</html>
